@@ -1,0 +1,14 @@
+{
+  "name": "alunos-rest-express",
+  "version": "1.0.0",
+  "description": "API REST de uma escola ficticia, feita com Node.js e Express, que lista alunos com nome, telefone e RG.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
